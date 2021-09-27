@@ -1,0 +1,199 @@
+
+@charset "UTF-8";
+
+
+body {
+    font-family: 'Fira Sans Condensed','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+main {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header {
+    height:153;
+    margin-top: 30px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 a {
+    background: url("../imagens/h1_logo_hover.png") top left no-repeat;
+    
+    display: block;
+    width: 150px;
+    height: 50px;
+    padding-left: 400px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    color:#fa8072;
+    float: left;
+    
+}
+
+header h1 a:hover{
+    background: url("../imagens/h1_logo.png") no-repeat;
+    color:#CD5C5C;
+}
+
+header #social-media {
+    height:34px;
+    float: right;
+}
+
+header #social-media ul li{
+    margin:0;
+    padding:0;
+    list-style: none;
+    float:left;
+    padding-left: 5px;
+}
+
+header #social-media ul li a {
+    display:block;
+    width:34px;
+    height:34px;
+    text-indent: -99999px;
+}
+
+header #social-media ul li a.facebook {
+    background: url("../imagens/facebook.png") no-repeat;
+}
+
+header #social-media ul li a:hover.facebook {
+    background: url("../imagens/facebook_hover.png") no-repeat;
+}
+
+header #social-media ul li a.google {
+    background: url("../imagens/google.png") no-repeat;   
+}
+
+header #social-media ul li a:hover.google {
+    background: url("../imagens/google_hover.png") no-repeat;
+}
+
+header #menu {
+    border-top:#9b8d8d solid 1px;
+    clear:both;
+    width: 960px;
+    height: 70px;
+}
+
+header #menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float:left;
+}
+
+header #menu ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float:left;
+}
+
+header #menu ul li a{
+    display: block;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 0;
+    color:#737373;
+    text-decoration:none;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header #menu ul li a:hover{
+
+    color:#CD5C5C;
+
+}
+
+#banner {
+    background:  url("../imagens/bg_banner.png") no-repeat top center;
+    height: 400px;
+}
+
+.botao-banner{
+    
+    display:block;
+    background:#fa8072;
+    width:100px;
+    height:35px;
+    padding-top: 15px;
+    
+    margin-left: auto;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
+    color:#ffffff;
+   
+}
+
+.botao-banner:hover{
+    text-decoration: underline;
+    background:#CD5C5C
+}
+
+#conteudo {
+    display:block;
+    padding-bottom: 30px;
+    float:left;
+}
+
+#conteudo .chamada {
+    float:left;
+    width:300px;
+    margin-left:15px;
+}
+
+#conteudo .titulo-chamada {
+
+    font-size:18px;
+    font-weight: 600;
+
+}
+
+#conteudo .buy {
+    background:#fa8072;
+    border:#fa8072 solid 2px;
+    padding: 5px;
+    color:#ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+
+#conteudo .buy:hover {
+    background:#CD5C5C;
+}
+
+footer .texto-rodape {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:white;
+    
+}
+
+footer {
+    background: #fa8072;
+    height: 90px;
+    clear:both;
+}
